@@ -14,5 +14,4 @@ def new_employee(request):
             form.save()
             return redirect('home')
 
-    return render(request,'hr_tem/emp_form.html',
-    {'form':form})
+    return render(request,"hr_tem/emp_form.html",{'form':form})
